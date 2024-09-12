@@ -1,0 +1,47 @@
+<!-- lancer en local avec l'extension Code Live de VSC -->
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet/less" type="text/css" href="style.less">
+        <title>Le titre de ma page</title>
+        <script type="text/javascript" src="scripts/jquery-1.10.2.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h1>FORMULAIRE</h1>
+        <div class="form">
+            <div>
+                <p>Nom</p>
+                <input type="text" id="nom" required>
+                <p>Prénom</p>
+                <input type="text" id="prenom" required>
+            </div>
+            <div>
+                <p>Adresse</p>
+                <input type="text" id="adresse" required>
+                <p>Code postal</p>
+                <input type="text" id="cp" required>
+                <p>Ville</p>
+                <input type="text" id="ville" required>
+            </div>
+            <div>
+                <p>Tel</p>
+                <input type="text" id="tel" required>
+                <p>Email</p>
+                <input type="text" id="email" required>
+            </div>
+            <div>
+                <p>Password</p>
+                <input type="password" id="password" required>
+                <p>Confirm Password</p>
+                <input type="confirmpassword" id="confirmpassword" required>
+                <p>Login</p>
+                <input type="text" id="login" required>
+            </div>
+        </div>
+        <input type="submit" value="valider" onclick="onSubmit()">
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/less" ></script>
+
+</html>
